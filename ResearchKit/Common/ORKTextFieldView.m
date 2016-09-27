@@ -446,7 +446,7 @@ static const UIEdgeInsets paddingGuess = (UIEdgeInsets){.left = 6, .right=6};
                                                                        attribute:NSLayoutAttributeNotAnAttribute
                                                                       multiplier:1.0
                                                                         constant:ORKScreenMetricMaxDimension];
-    widthConstraint.priority = UILayoutPriorityDefaultLow;
+    widthConstraint.priority = UILayoutPriorityDefaultHigh;
     [constraints addObject:widthConstraint];
     
     [NSLayoutConstraint activateConstraints:constraints];
